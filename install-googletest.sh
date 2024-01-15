@@ -17,3 +17,7 @@ cd build
 cmake ..
 make
 sudo make install    # Install in /usr/local/ by default
+
+echo "======================================================"
+echo "You can now delete the source for google tests using \"rm -rf googletest\""
+echo "======================================================"
