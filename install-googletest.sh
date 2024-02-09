@@ -17,3 +17,9 @@ cd build
 cmake ..
 make
 sudo make install    # Install in /usr/local/ by default
+
+echo "===================================="
+echo "If installation is successfull, use"
+echo "        rm -rf googletest"
+echo "to delete the installation files"
+echo "===================================="
