@@ -28,8 +28,7 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "sample4.h"
-
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 
 namespace {
 // Tests the Increment() method.
@@ -50,4 +49,4 @@ TEST(Counter, Increment) {
   EXPECT_EQ(3, c.Decrement());
 }
 
-}  // namespace
+} // namespace

@@ -39,7 +39,7 @@
 
 #include "sample2.h"
 
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 namespace {
 // In this example, we test the MyString class (a simple string).
 
@@ -104,4 +104,4 @@ TEST(MyString, Set) {
   s.Set(nullptr);
   EXPECT_STREQ(nullptr, s.c_string());
 }
-}  // namespace
+} // namespace
